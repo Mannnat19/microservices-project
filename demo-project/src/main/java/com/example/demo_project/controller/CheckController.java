@@ -21,6 +21,7 @@ public class CheckController {
 
     @PutMapping("path/{id}")
     public String putMethodName(@PathVariable String id, @RequestBody String entity) {
+    // adding a comment
         return entity;
     }
 }
